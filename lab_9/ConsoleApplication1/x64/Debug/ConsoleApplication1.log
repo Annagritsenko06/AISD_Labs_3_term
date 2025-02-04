@@ -1,0 +1,27 @@
+﻿Сборка начата 19.12.2024 18:18:37.
+Уровень детализации журнала: Normal.     1>Проект "E:\2_1ый сем\АИСД\Лабараторная работа 9\ConsoleApplication1\ConsoleApplication1.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\ConsoleA.d4ab3582.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\ConsoleA.d4ab3582.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt ConsoleApplication1.cpp
+         ConsoleApplication1.cpp
+     1>E:\2_1ый сем\АИСД\Лабараторная работа 9\ConsoleApplication1\ConsoleApplication1.cpp(251,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\2_1ый сем\АИСД\Лабараторная работа 9\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe" /INCREMENTAL /ILK:"x64\Debug\ConsoleApplication1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\2_1ый сем\АИСД\Лабараторная работа 9\ConsoleApplication1\x64\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\2_1ый сем\АИСД\Лабараторная работа 9\ConsoleApplication1\x64\Debug\ConsoleApplication1.lib" /MACHINE:X64 x64\Debug\ConsoleApplication1.obj
+         ConsoleApplication1.vcxproj -> E:\2_1ый сем\АИСД\Лабараторная работа 9\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\ConsoleA.d4ab3582.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\ConsoleA.d4ab3582.tlog\ConsoleApplication1.lastbuildstate".
+     1>Сборка проекта "E:\2_1ый сем\АИСД\Лабараторная работа 9\ConsoleApplication1\ConsoleApplication1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "E:\2_1ый сем\АИСД\Лабараторная работа 9\ConsoleApplication1\ConsoleApplication1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         E:\2_1ый сем\АИСД\Лабараторная работа 9\ConsoleApplication1\ConsoleApplication1.cpp(251,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:06.96
